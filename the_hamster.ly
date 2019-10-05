@@ -4,8 +4,6 @@
 
 \paper {
   indent = 0\mm
-  ragged-right = ##t
-  ragged-bottom = ##t
 }
 \layout {
   \context {
@@ -30,15 +28,15 @@
     % Part 1
     \repeat volta 2 {
       % line 1
-      \grg a8 e8 \grg e8 \gra e8 \grA g8 f8 d8 \dble e8 ~
+      \grg a8 e8 \grg e8 \gra e8 \grA g8[ f8 d8 \dble e8] ~
       e8 c8 \grg d8 e8 \grg d8 c8 \grg a8 \grd G8
-      \grg a8 \grd a8 e8 \gbirl a8 ~ a8 e8 \gra e8 f8
+      \grg a8[ \grd a8 e8 \gbirl a8] ~ a8 e8 \gra e8 f8
       \grA g8 d8 \grg e8 f8 \grg d8 e8 \grg f8 d8
 
       \break
 
       % line 2
-      \grg a8 e8 \grg e8 \gra e8 \grA g8 f8 d8 \dble e8 ~
+      \grg a8 e8 \grg e8 \gra e8 \grA g8[ f8 d8 \dble e8] ~
       e8 c8 \grg d8 e8 \grg d8 c8 \grg a8 \grd G8
       \time 3/2
       \grg a8 e8 \grg e8 \gra e8 \grg d8 c8 \gra c8 \grg a8 ~ a8 G8 \grg a8 b8
@@ -51,12 +49,12 @@
     % Part 2
     {
       \gbirl a4 \grg a8 \grd c8 \grg b8 \grd G8 \gre G8 d8
-      \grg b8 \grd G8 d8 \dblb b8 ~ b8 d8 \grg G8 \grd b8
+      \grg b8[ \grd G8 d8 \dblb b8] ~ b8 d8 \grg G8 \grd b8
       \grg a8 \grd a8 \gre a8 \grd b8 \grG b8 d8 \gra d8 e8
-      \grA g8 f8 d8 \dble e8 ~ e8 a8 \grg e8 A8
+      \grA g8[ f8 d8 \dble e8] ~ e8 a8 \grg e8 A8
       \break
       \gbirl a4 \grg a8 \grd c8 \grg b8 \grd G8 \gre G8 d8
-      \grg b8 \grd G8 d8 \dble e8 ~ e8 d8 \grg b8 \grd G8
+      \grg b8[ \grd G8 d8 \dble e8] ~ e8 d8 \grg b8 \grd G8
       \time 3/2
       \grg a8 e8 \grg e8 \gra e8 \grg d8 c8 \gra c8 \grg a8 ~ a8 G8 \grg a8 b8
       \time 4/4
@@ -83,7 +81,7 @@
         \break
       }
       {
-        \wbirl a4 \grg a8 \grd d8 \grG b8 d8 \grG d8 e8 \grA g8 f8 d8 \dble e8 ~ e8 \grg a8 \grg e8 A8
+        \wbirl a4 \grg a8 \grd d8 \grG b8 d8 \grG d8 e8 \grA g8[ f8 d8 \dble e8] ~ e8 \grg a8 \grg e8 A8
         \time 3/2
         \grg a8 e8 \grg e8 \gra e8 \grg d8 c8 \grG c8 \grg a8 ~ a8 G8 \grg a8 b8
         \time 4/4
