@@ -36,14 +36,14 @@ waltzBeaming = {
       \time 3/4
       \waltzBeaming
       \grg c8 e8 \gra e8 c8 \shaked d4
-      \grg c8 e8 \gra e8 c8 \grg a8 d8
-      \grg b8 e8 \gra e8 b8 \shaked d4
+      \grg c8 e8 \gra e8 c8 \grg b8 d8
+      \grg c8 e8 \gra e8 c8 \shaked d4
       G8 a8 \gbirl a4 \grg b8 a8
       \break
 
 
       \grg c8 e8 \gra e8 c8 \shaked d4
-      \grg c8 e8 \gra e8 c8 \grg a8 d8
+      \grg c8 e8 \gra e8 c8 \grg b8 c8
       \dbla a4 c8 \dblb b4 c8
 
       \time 6/8
@@ -72,14 +72,14 @@ waltzBeaming = {
 
     {
       \grg c8 e8 \gra e8 \grg d8 e8 \gra e8
-      \grg c8 e8 \gra e8 \grg c8 b8 a8
+      \grg c8 e8 \gra e8 \grg d8 c8 b8
       
       \time 3/4
       \waltzBeaming
       \dbla a4 c8 \dblb b4 c8
       
       \time 6/8
-      \grg a8 c8 \grG c8 a8 \grg b8 a8
+      \grg a8 c8 \grG c8 a8 \grg b8 G8
       \break
       
       \time 3/4

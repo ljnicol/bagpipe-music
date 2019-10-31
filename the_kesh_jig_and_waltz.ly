@@ -77,7 +77,7 @@ waltzBeaming = {
 
       \set Score.repeatCommands = #'((volta "2"))
       \gbirl a4 \grg a8 b8 \grg c8 a8
-      \shakeb b4 \grg b8 c8 \grg e8 G8
+      \shakeb b4 \grg b8 c8 \grg e8 g8
 
       \time 6/8
       \grg f8 e8 \gra e8 A8 e8 \gra e8
@@ -89,10 +89,10 @@ waltzBeaming = {
 
       \set Score.repeatCommands = #'((volta #f))
       \gbirl a4 \grg a8 b8 \grg c8 a8
-      \shakeb b4 \grg b8 c8 \grg e8 G8
+      \shakeb b4 \grg b8 c8 \grg e8 g8
 
       \time 6/8
-      \grg f8 e8 \gra e8 A8 e8 \gra e8
+      \grg f8 e8 \gra e8 A8 e8 c8
 
       \time 3/4
       \waltzBeaming
