@@ -81,7 +81,7 @@
         \break
       }
       {
-        \wbirl a4 \grg a8 \grd d8 \grG b8 d8 \grG d8 e8 \grA g8[ f8 d8 \dble e8] ~ e8 \grg a8 \grg e8 A8
+        \wbirl a4 \grg a8 \grd b8 \grG b8 d8 \grG d8 e8 \grA g8[ f8 d8 \dble e8] ~ e8 \grg a8 \grg e8 A8
         \time 3/2
         \grg a8 e8 \grg e8 \gra e8 \grg d8 c8 \grG c8 \grg a8 ~ a8 G8 \grg a8 b8
         \time 4/4
