@@ -87,3 +87,46 @@ waltzBeaming = {
     }
   }
 }
+\score {
+    {
+    \bagpipeKey
+    
+    \mark "Seconds"
+
+
+    % Part 1
+    {
+      \time 3/4
+      \waltzBeaming
+      \grg a2. ~ a2 G4
+      \grg a2. \grg d8
+      \new Voice <<
+        { e8 }
+        { b8 }
+      >>
+      \grg e4 ~ e4
+      \break
+      
+      \grg a2. ~ a2 G4
+      \grg e4. \grg d4.
+      \time 6/8
+      \grg e4. e4.
+      
+      \break
+      
+      \grg a4. ~ a4. ~ a4. ~ a4.
+      \grg e4. \grg d4.
+      \grg e4.
+      \new Voice <<
+        { A4. }
+        { e4. }
+      >>
+      \break
+      \time 3/4
+      {
+        e2. ~ e4
+      }
+      
+    }
+  }
+}
