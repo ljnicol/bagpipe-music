@@ -127,3 +127,39 @@ waltzBeaming = {
     }
   }
 }
+
+
+\score {
+  
+  {
+    \bagpipeKey
+    \mark "Seconds"
+    % Part 3
+    \repeat volta 2 {
+      \grg a8 f8 \gre f8 a8 e8 \gra e8 a8 \grg d8 ~
+      d8 a8 \grg c8 d8 \grg a2
+      \grg a8 e8 a8 \grd a8 e8 a8 \grd a8 \grg d8 ~
+      d8 a8 \grg c8 d8 \grg a4 e4
+      \break
+    }
+    \alternative {
+      {
+        \grg a8 f8 \gre f8 a8 e8 \gra e8 a8 \grg d8 ~
+        d8 A8 \grg A8 e8 \grA g2
+        \time 3/2
+        A8 a8 \grg a8 A8 f8 e8 \gra e8 \grg e8 ~ e8 d8 \grg e8 f8
+        \time 4/4
+        \grA g4 d8 \grG d8 \grg e2
+        \break
+      }
+      {
+        \grg e4 \grg c8 d8 \gra d8 f8 \gre f8 a8
+        \grg a2 ~ a2
+        \time 3/2
+        A8 a8 \grg a8 A8 f8 e8 \gra e8 \grg e8 ~ e8 d8 \grg e8 f8
+        \time 4/4
+        \grA g4 d8 \grG d8 \grg e2
+      }
+    }
+  }
+}
