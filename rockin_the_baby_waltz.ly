@@ -90,6 +90,50 @@ waltzBeaming = {
     \bagpipeKey
     
     \mark "Seconds"
+    \repeat volta 2 {
+      \time 3/4
+      \waltzBeaming
+      \grg e8 a8 \grd a8 A8 e4
+      \grg e8 a8 \grd a8 A8 f8 d8
+      \grg e8 a8 \grd a8 A8 e4
+      \grg d8 e8 \gra e4 \grg d8 c8
+      \break
+
+
+      \grg e8 a8 \grd a8 A8 e4
+      \grg e8 a8 \grd a8 A8 f8 d8
+      
+      \time 6/8
+      \grg c4 e8 \grg d4 e8
+
+      \grg c8 e8 \grG e8 c8 \grg d8 c8
+    }
+    \break
+
+    % Part 3
+    {
+      \grg a8 c8 \grG c8 \grg b8 c8 \grG c8
+      \grg a8 c8 \gra c8 \grg f8 e8 d8
+      
+      \grg c4 e8 \grg d4 e8
+      
+      \grg c8 e8 \gra e8 c8 \grg d8 b8
+      \break
+      
+      \break
+      \time 3/4
+      {
+       \grg c2. ~ c4
+      }
+      
+    }
+  }
+}
+\score {
+    {
+    \bagpipeKey
+    
+    \mark "Thirds"
 
 
     % Part 1
@@ -103,7 +147,6 @@ waltzBeaming = {
         { b8 }
       >>
       \grg e4 ~ e4
-      \break
       
       \grg a2. ~ a2 G4
       \time 6/8
@@ -118,11 +161,10 @@ waltzBeaming = {
       \new Voice <<
         { A4. }
         { e4. }
-      >>
-      \break
+      >> 
       \time 3/4
       {
-        e2. ~ e4
+        \grg e2. ~ e4
       }
       
     }

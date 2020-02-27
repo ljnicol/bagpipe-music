@@ -84,7 +84,7 @@ waltzBeaming = {
       \time 3/4
       \waltzBeaming
       
-      \grg b8. a16 \gbirl a4 \grg a16 G8.
+      \grg b8 a8 \gbirl a4 \grg a8 G8
       \break
 
       \gbirl a4 \grg a8 b8 \grg c8 a8
@@ -107,7 +107,7 @@ waltzBeaming = {
       \time 3/4
       \waltzBeaming
       
-      \grg b8. a16 \gbirl a4 \grg a4
+      \grg b8 a8 \gbirl a4 \grg a4
 
     }
     \break
@@ -123,7 +123,7 @@ waltzBeaming = {
       \shakec c4 \grg e8 a8 \grg c8 a8
       \dare f4 A8 f8 \grg e8 c8
       \dblA A4 c8 b8 \grG b8 c8
-      \grg b8. a16 \gbirl a4 \grg a4
+      \grg b8 a8 \gbirl a4 \grg a4
     }
   }
 }
@@ -133,33 +133,23 @@ waltzBeaming = {
   
   {
     \bagpipeKey
-    \mark "Seconds"
+    \mark \markup { Seconds}
     % Part 3
     \repeat volta 2 {
-      \grg a8 f8 \gre f8 a8 e8 \gra e8 a8 \grg d8 ~
-      d8 a8 \grg c8 d8 \grg a2
-      \grg a8 e8 a8 \grd a8 e8 a8 \grd a8 \grg d8 ~
-      d8 a8 \grg c8 d8 \grg a4 e4
+      \time 3/4
+      \waltzBeaming
+      \gbirl a4 \grg c8 a8 \grg e8 a8
+      \grg d4 \grg f8 d8 \grg c8 a8
+      \grg a4 ~ a8 A8 \grg e8 c8
+      \grg d4 \grg d8 e8 \grg d8 c8
+      \break
+
+      \gbirl a4 \grg c8 a8 \grg e8 a8
+      \grg d4 \grg f8 d8 \grg c8 a8
+      \grg f4 \grg e8 d8 \grG d8 e8
+      \grg d8 c8 \grg c8 \grG c8 \grg c4
       \break
     }
-    \alternative {
-      {
-        \grg a8 f8 \gre f8 a8 e8 \gra e8 a8 \grg d8 ~
-        d8 A8 \grg A8 e8 \grA g2
-        \time 3/2
-        A8 a8 \grg a8 A8 f8 e8 \gra e8 \grg e8 ~ e8 d8 \grg e8 f8
-        \time 4/4
-        \grA g4 d8 \grG d8 \grg e2
-        \break
-      }
-      {
-        \grg e4 \grg c8 d8 \gra d8 f8 \gre f8 a8
-        \grg a2 ~ a2
-        \time 3/2
-        A8 a8 \grg a8 A8 f8 e8 \gra e8 \grg e8 ~ e8 d8 \grg e8 f8
-        \time 4/4
-        \grA g4 d8 \grG d8 \grg e2
-      }
-    }
-  }
 }
+}
+ 
