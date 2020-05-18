@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20"
 
 %{
   Bagpipe music settings for Lilypond.
@@ -30,7 +30,7 @@ pitchnamesBagpipe = #`(
   (C     . ,(ly:make-pitch 2 0 SHARP))
 )
 pitchnames = \pitchnamesBagpipe
-#(ly:parser-set-note-names parser pitchnames)
+#(ly:parser-set-note-names pitchnames)
 
 % Bagpipe music is written in something like D major. If we use
 % flattened notes, the flat should be shown on all instances.
