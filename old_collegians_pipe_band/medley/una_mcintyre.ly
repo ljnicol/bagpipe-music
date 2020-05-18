@@ -86,16 +86,17 @@
     \bagpipeKey
 
     % line 2
-    f16. d32 \wslurd d8 f16. c32 \grg b16. c32
-    \grg b16. d32 \wslurd d8 \grg d8 \grg c16. d32
+    f16. d32 \wshaked d8 f16. c32 \grg b16. c32
+    \grg b16. d32 \wshaked d8 \grg d8 \grg c16. d32
     \grA e16. d32 \grG d16. e32 d32 \grG d16. \grA e16. d32
     \grA e16. c32 \grg a16. b32 \dblc c8 f16. e32
 
     \break
     % line 2
-    \grA d16. d32 \wslurd d8 \grg d16. e32 \grg f16. g32
-    \grg A16. d32 \wslurd d8 \grg b8 \grg e16. f32
-    \grA g16. f32 \grg e16. d32 \grg c32 \grd a16. \grg b16. c32 \thrwd d4 \wslurd d8
+    \grA d16. \grc d32 \wshaked d8 \grg d16. e32 \grg f16. g32
+    \grg A16. d32 \wshaked d8 \grg b8 \grg e16. f32
+    \grA g16. f32 \grg e16. d32 \grg c32 \grd a16. \grg b16. c32 
+    \thrwd d4 \wslurd d8
   }
   \bar "|."
 }
