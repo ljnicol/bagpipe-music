@@ -1,6 +1,6 @@
 \version "2.18.2"
 \include "bagpipe.ly"
-\include "bagpipe_new.ly"
+\include "../../bagpipe_new.ly"
 
 \paper {
   indent = 0\mm
