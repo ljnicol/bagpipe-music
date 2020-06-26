@@ -27,14 +27,14 @@
     \bagpipeKey
     \partial 8 A16. g32
     % line 1
-    \grA f16. a32 \gbirl a8 \grg a16. b32 \grg d16. d32
+    \grA f16. a32 \gbirl a8 \grg a16. b32 \grg d16. e32
     \grg f16. a32 \gbirl a8 \grg f8 \grg e16. f32
     \grA g16. b32 \grG b16. g32 b32 \grG b16. \grA g16. b32
     \grA g16. e32 \grg c16. d32 \dble e8 A16. g32
 
     \break
     % line 2
-    \grA f16. a32 \gbirl a8 \grg a16. b32 \grg d16. d32
+    \grA f16. a32 \gbirl a8 \grg a16. b32 \grg d16. e32
     \grg f16. a32 \gbirl a8 \grg f8 \grg e16. f32
     \grA g16. f32 \grg e16. d32 \grg c32 \grd a16. \grg b16. c32 
     \thrwd d4 \wslurd d8
