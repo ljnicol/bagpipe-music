@@ -68,7 +68,9 @@
     \break
     % line 2
     \grA f16. a32 \gbirl a8 \grg a16. b32 \grg d16. e32
-    \grg f16. a32 \gbirl a8 \grg f8 \grg e16. f32
+    \time 3/4
+    \grg f16. a32 \gbirl a8 \grg f4 ~ f8 \grg e16. f32
+    \time 2/4
     \grA g16. f32 \grg e16. d32 \grg c32 \grd a16. \grg b16. c32 
     \thrwd d4 \wslurd d8
   }
@@ -94,7 +96,9 @@
     \break
     % line 2
     \grA d16. \grc d32 \wshaked d8 \grg d16. e32 \grg f16. g32
-    \grg A16. d32 \wshaked d8 \grg b8 \grg e16. f32
+    \time 3/4
+    \grg A16. d32 \wshaked d8 \grg b4 ~ b8 \grg e16. f32
+    \time 2/4
     \grA g16. f32 \grg e16. d32 \grg c32 \grd a16. \grg b16. c32 
     \thrwd d4 \wslurd d8
   }
