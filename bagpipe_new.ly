@@ -122,6 +122,12 @@ halfBeaming = {
   \set Score.beatStructure = #'(1 1)
 }
 
+waltzBeaming = {
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment = #(ly:make-moment 1/4)
+  \set Timing.beatStructure = #'(1 1 1)}
+
+
 % Reels are in allabreve time with half note beaming.
 reelTime = {
   \time 2/2
