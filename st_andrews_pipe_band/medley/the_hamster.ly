@@ -20,7 +20,6 @@
   arranger = "Arr. S. McKenzie"
 }
 
-
 \score {
   {
     \bagpipeKey

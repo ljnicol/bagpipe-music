@@ -20,16 +20,9 @@
   arranger = "Arr. Andrew Roach"
 }
 
-waltzBeaming = {
-      \set Timing.beamExceptions = #'()
-      \set Timing.baseMoment = #(ly:make-moment 1/4)
-      \set Timing.beatStructure = #'(1 1 1)}
-
 \score {
   {
     \bagpipeKey
-
-
     % Part 1
     \repeat volta 2 {
       \time 6/8
